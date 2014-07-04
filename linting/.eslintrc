@@ -100,7 +100,7 @@
       "max-depth": [0, 4],
       "max-len": [0, 80, 4],
       "max-nested-callbacks": [0, 2],
-      "max-params": [1, 3],
+      "max-params": [1, 4],
       "max-statements": [0, 10],
       "handle-callback-err": 0,
       "new-cap": 2,
@@ -121,6 +121,7 @@
       "valid-jsdoc": 0,
       "valid-typeof": 2,
       "wrap-iife": 0,
-      "wrap-regex": 0
+      "wrap-regex": 0,
+      "yoda": 0
     }
 }
