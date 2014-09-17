@@ -113,7 +113,7 @@
 
         // node.js specific
         , "handle-callback-err":    [2, "^(err|error)$"] // - enforces error handling in callbacks (off by default) (on by default in the node environment)
-        , "no-mixed-requires":      [1, true] // - disallow mixing regular variable and require declarations (off by default) (on by default in the node environment)
+        , "no-mixed-requires":      [0, false] // - disallow mixing regular variable and require declarations (off by default) (on by default in the node environment)
         , "no-new-require":         2 // - disallow use of new operator with the require function (off by default) (on by default in the node environment)
         , "no-path-concat":         2 // - disallow string concatenation with __dirname and __filename (off by default) (on by default in the node environment)
         , "no-process-exit":        2 // - disallow process.exit() (on by default in the node environment)
