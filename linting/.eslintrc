@@ -88,7 +88,7 @@
         , "no-with":                1 // - disallow use of the with statement
         , "radix":                  2 // - require use of the second argument for parseInt() (off by default)
         , "vars-on-top":            0 // - requires to declare all the vars on top of function scope (off by default)
-        , "wrap-iife":              [2, "inside"] // - require immediate function invocation to be wrapped in parentheses (off by default)
+        , "wrap-iife":              [2, "outside"] // - require immediate function invocation to be wrapped in parentheses (off by default)
         , "yoda":                   [2, "always"] // - require or disallow Yoda conditions
 
 
@@ -144,7 +144,7 @@
         , "quotes":                   [2, "double"] // - specify whether double or single quotes should be used
         , "quote-props":              2 // - require quotes around object literal property names (off by default)
         , "semi":                     2 // - require or disallow use of semicolons instead of ASI
-        , "sort-vars":                2 // - sort variables within the same declaration block (off by default)
+        , "sort-vars":                0 // - sort variables within the same declaration block (off by default)
         , "space-after-keywords":     [2, "always"] // - require a space after certain keywords (off by default)
         , "space-in-brackets":        [0, "always"] // - require or disallow spaces inside brackets (off by default)
         , "space-in-parens":          [2, "never"] // - require or disallow spaces inside parentheses (off by default)
