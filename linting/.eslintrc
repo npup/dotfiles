@@ -40,7 +40,7 @@
         , "no-sparse-arrays":       2 // - disallow sparse arrays
         , "no-unreachable":         2 // - disallow unreachable statements after a return, throw, continue, or break statement
         , "use-isnan":              2 // - disallow comparisons with the value NaN
-        , "valid-jsdoc":            2 // - Ensure JSDoc comments are valid (off by default)
+        , "valid-jsdoc":            0 // - Ensure JSDoc comments are valid (off by default)
         , "valid-typeof":           2 // - Ensure that the results of typeof are compared against a valid string
 
 
@@ -80,9 +80,9 @@
         , "no-redeclare":           2 // - disallow declaring the same variable more then once
         , "no-return-assign":       0 // - disallow use of assignment in return statement
         , "no-script-url":          2 // - disallow use of javascript: urls.
-        , "no-self-compare":        2 // - disallow comparisons where both sides are exactly the same (off by default)
+        , "no-self-compare":        0 // - disallow comparisons where both sides are exactly the same (off by default)
         , "no-sequences":           0 // - disallow use of comma operator
-        , "no-unused-expressions":  2 // - disallow usage of expressions in statement position
+        , "no-unused-expressions":  0 // - disallow usage of expressions in statement position
         , "no-void":                0 // - disallow use of void operator (off by default)
         , "no-warning-comments":    [1, { "terms": ["todo", "fixme", "xxx"], "location": "anywhere" }] // - disallow usage of configurable warning terms in comments - e.g. TODO or FIXME (off by default)
         , "no-with":                1 // - disallow use of the with statement
@@ -122,7 +122,7 @@
 
 
         // Stylistic Issues
-        , "brace-style":              [1, "stroustrup"] // - enforce one true brace style (off by default)
+        , "brace-style":              [2, "stroustrup", {"allowSingleLine": true}] // - enforce one true brace style (off by default)
         , "camelcase":                2 // - require camel case names
         , "consistent-this":          [0, "self"] // - enforces consistent naming when capturing the current execution context (off by default)
         , "eol-last":                 2 // - enforce newline at the end of file, with no multiple empty lines
