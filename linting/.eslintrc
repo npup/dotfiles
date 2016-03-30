@@ -160,11 +160,10 @@
 		, "quote-props": 2 // - require quotes around object literal property names (off by default)
 		, "semi": 2 // - require or disallow use of semicolons instead of ASI
 		, "sort-vars": 0 // - sort variables within the same declaration block (off by default)
-		, "keyword-spacing": [2, "always"] // - require a space after certain keywords (off by default)
+		, "keyword-spacing": [2, {}] // - require a space after certain keywords (off by default)
 		, "space-in-brackets": [0, "always"] // - require or disallow spaces inside brackets (off by default)
 		, "space-in-parens": [0, "never"] // - require or disallow spaces inside parentheses (off by default)
 		, "space-infix-ops": 0 // - require spaces around operators
-		, "space-return-throw-case": 2 // - require a space after return, throw, and case
 		, "space-unary-ops": 2 // - require a space around word operators such as typeof (off by default)
 		, "max-nested-callbacks": [1, 3] // - specify the maximum depth callbacks can be nested (off by default)
 		, "one-var": 0 // - allow just one var statement per function (off by default)
